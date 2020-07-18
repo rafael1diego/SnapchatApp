@@ -1,3 +1,10 @@
+//
+//  ImagenViewController.swift
+//  Snapchat
+//
+//  Created by mbtec22 on 7/5/20.
+//  Copyright © 2020 dquispe. All rights reserved.
+//
 
 import UIKit
 import Firebase
@@ -36,11 +43,13 @@ class ImagenViewController: UIViewController, UIImagePickerControllerDelegate, U
             if error != nil{
                 print("Ocurrió un error: \(error)")
             }else{
-                
+                self.performSegue(withIdentifier: "seleccionarContactoSegue", sender: metadata?.downloadURL()!.absoluteString)
             }
         })
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
+        let siguienteVC = segue.destination as! ElegirUsuarioViewController
+        siguienteVC.imagenURL = sender as! String
+        siguienteVC.descrip = descripcionTextField.text!
     }
 }

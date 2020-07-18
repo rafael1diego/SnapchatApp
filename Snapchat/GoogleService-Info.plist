@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>548226333468-1gobbskhjuovfc56mjp4f4mssmjoehk8.apps.googleusercontent.com</string>
+	<string>251458740468-84cg4gkcbrmrdlacqu6068qjqrg7r454.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.548226333468-1gobbskhjuovfc56mjp4f4mssmjoehk8</string>
+	<string>com.googleusercontent.apps.251458740468-84cg4gkcbrmrdlacqu6068qjqrg7r454</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBeA-hhinTLwpTlXlx-Y74D7fhc7OWEcu8</string>
+	<string>AIzaSyAwfhBH4ideFy78YvcwHTDOtYU71S4ytwg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>548226333468</string>
+	<string>251458740468</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.tecsup.Snapchat</string>
+	<string>pe.dquispe.ios.Snapchat</string>
 	<key>PROJECT_ID</key>
-	<string>snapchat-91abb</string>
+	<string>snapchat-fa7a9</string>
 	<key>STORAGE_BUCKET</key>
-	<string>snapchat-91abb.appspot.com</string>
+	<string>snapchat-fa7a9.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:548226333468:ios:386f0f9cc9d46f699418d9</string>
+	<string>1:251458740468:ios:21e6b355ee5f8ad0033ea1</string>
 	<key>DATABASE_URL</key>
-	<string>https://snapchat-91abb.firebaseio.com</string>
+	<string>https://snapchat-fa7a9.firebaseio.com</string>
 </dict>
 </plist>

@@ -1,4 +1,10 @@
-
+//
+//  AppDelegate.swift
+//  Snapchat
+//
+//  Created by mbtec22 on 7/2/20.
+//  Copyright © 2020 dquispe. All rights reserved.
+//
 
 import UIKit
 import Firebase
